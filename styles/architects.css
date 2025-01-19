@@ -217,6 +217,20 @@ main>section {
     filter: grayscale(100);
 }
 
+/* footer section style */
+.footer-copyright {
+
+    background-color: #FFF4E7;
+    font-size: 20px;
+    margin: 0px auto;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
 /* responsive media quary */
 
 @media screen and (max-width: 576px) {
@@ -252,6 +266,17 @@ main>section {
         margin-top: 20px;
 
     }
+
+    .footer-copyright {
+        margin: 0px 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 12px;
+
+      
+
+    }
 }
 
 /* medium size device */
@@ -271,7 +296,7 @@ main>section {
         justify-items: center;
     }
 
-     #experience-badge {
+    #experience-badge {
 
         margin-left: 20px;
         margin-top: 20px;
